@@ -105,4 +105,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-typescript
 - https://www.gatsbyjs.org/blog/2020-01-23-why-typescript-chose-gatsby/#typescript-support
 
+### Tailwind CSS
+
+- https://www.gatsbyjs.org/docs/tailwind-css/
+- https://tailwindcss.com/docs/installation/#3-use-tailwind-in-your-css
+- https://tailwindcss.com/docs/controlling-file-size/
+
 <!-- AUTO-GENERATED-CONTENT:END -->

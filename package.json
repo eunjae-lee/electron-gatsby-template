@@ -27,6 +27,7 @@
     "electron-unhandled": "^3.0.2",
     "electron-util": "^0.13.1",
     "gatsby": "^2.19.7",
+    "gatsby-plugin-postcss": "^2.1.20",
     "gatsby-plugin-typescript": "^2.1.27",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -38,6 +39,7 @@
     "electron-builder": "^22.3.2",
     "electron-react-devtools": "^0.5.3",
     "prettier": "^1.19.1",
+    "tailwindcss": "^1.1.4",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5",
     "wait-on": "^4.0.0"
