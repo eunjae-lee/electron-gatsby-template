@@ -19,6 +19,7 @@
     "react-test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@types/react-helmet": "^5.0.15",
     "cross-env": "^7.0.0",
     "electron-context-menu": "^0.16.0",
     "electron-debug": "^3.0.1",
@@ -26,7 +27,7 @@
     "electron-unhandled": "^3.0.2",
     "electron-util": "^0.13.1",
     "gatsby": "^2.19.7",
-    "prop-types": "^15.7.2",
+    "gatsby-plugin-typescript": "^2.1.27",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
@@ -37,6 +38,8 @@
     "electron-builder": "^22.3.2",
     "electron-react-devtools": "^0.5.3",
     "prettier": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
     "wait-on": "^4.0.0"
   },
   "keywords": [

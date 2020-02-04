@@ -94,4 +94,15 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
+## References
+
+### Electron
+
+- https://medium.com/@impaachu/how-to-build-a-react-based-electron-app-d0f27413f17f
+
+### TypeScript
+
+- https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-typescript
+- https://www.gatsbyjs.org/blog/2020-01-23-why-typescript-chose-gatsby/#typescript-support
+
 <!-- AUTO-GENERATED-CONTENT:END -->
