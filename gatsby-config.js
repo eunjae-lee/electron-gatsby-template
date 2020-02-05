@@ -1,4 +1,4 @@
-require("ts-node").register({ files: true })
+require('ts-node').register({ files: true });
 
 module.exports = {
   siteMetadata: {
@@ -7,4 +7,4 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [`gatsby-plugin-typescript`, `gatsby-plugin-postcss`],
-}
+};

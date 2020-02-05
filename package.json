@@ -12,11 +12,12 @@
     "develop": "concurrently \"cross-env BROWSER=none yarn react-develop\" \"wait-on http://localhost:3456 && electron .\"",
     "react-build": "gatsby build",
     "react-develop": "gatsby develop --port 3456",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "yarn run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "react-test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "react-test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "lint:fix": "yarn run lint --fix"
   },
   "dependencies": {
     "@types/react-helmet": "^5.0.15",
@@ -34,10 +35,22 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "babel-eslint": "^10.0.3",
     "concurrently": "^5.1.0",
     "electron": "^8.0.0",
     "electron-builder": "^22.3.2",
     "electron-react-devtools": "^0.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-algolia": "^15.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.3.0",
     "prettier": "^1.19.1",
     "tailwindcss": "^1.1.4",
     "ts-node": "^8.6.2",
